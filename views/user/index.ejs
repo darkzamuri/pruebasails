@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title><%= title %></title>
+    </head>
+    <body>
+    	<% users.forEach( function( model ){ %>
+	        <%= model.name %><br>
+	        <%= model.age %><br>
+	        <%= model.profession %>
+        <% }); %>
+    </body>
+</html>
